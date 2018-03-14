@@ -1,281 +1,360 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link rel="stylesheet" href="css/style.css">
-    <title>Blue Sheet Automation</title>
+	<title>Blue Sheet Automation</title>
 
-  </head>
-  <body class="logged-out-view">
-  	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  		<div class="container">
-		  <a class="navbar-brand" href="#">
-		    <img src="img/whale.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-		    Blue Practice Arena
-		  </a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	    	<span class="navbar-toggler-icon"></span>
-	 	 </button>
+</head>
+<!---=Body Start-->
+<body class="logged-out-view">
+	<!---=Nav Start-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="img/whale.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+				Blue Practice Arena
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-		  <div class="collapse navbar-collapse" id="navbarNav">
-		    <div class="navbar-nav" style="float: right;margin-left: 450px;">
-		      <a class="nav-item nav-link active" href="index.html"><i class="fa fa-home nav-icon"></i> Home <span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link" href="register.html"> <i class="fas fa-user-plus"></i> Register </a>
-		      <a class="nav-item nav-link" href="#"><i class="fa fa-align-justify"></i> Problem Archive</a>
-		      <a class="nav-item nav-link" href="#"><i class="fas fa-book"></i> About</a>
-		    </div>
-		  </div>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<div class="navbar-nav" style="float: right;margin-left: 450px;">
+					<a class="nav-item nav-link active" href="index.html"><i class="fa fa-home nav-icon"></i> Home <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="register.html"> <i class="fas fa-user-plus"></i> Register </a>
+					<a class="nav-item nav-link" href="#"><i class="fa fa-align-justify"></i> Problem Archive</a>
+					<a class="nav-item nav-link" href="#"><i class="fas fa-book"></i> About</a>
+				</div>
+			</div>
 		</div>
 	</nav>
+	<!---=Nav End-->
 
-	<!--Main Container-->
-  	<div class="container">
+
+<!--//////////////////////////////////////////////////////////////// TABLE OF CONTENTS ////////////////////////////////////////////////->
+
+0.Whole page -=MAIN CONTAINER START
+1.Side Bar -=PROFILE-SIDEBAR START
+1.1. Side Bar Image -=SIDEBAR PIC
+1.2. Side Bar Name and Title -=SIDEBAR USER TITLE
+1.3. Side Bar Buttons -=SIDEBAR BUTTONS
+1.4. Side Bar Infos -=SIDEBAR MENU
+
+2.Info conrner -=INFO CONTENTS START
+2.1. What to solve next? -=WHAT TO SOLVE NEXT?
+2.1.1. Item -=WHAT TO SOLVE NEXT? ITEM
+2.2. Upcomming Contest -=UPCOMMING CONTEST SECTION
+2.2.1. Item -=UPCOMMING CONTEST
+2.3. Announcement -=ANNOUNCEMENT
+2.3.1. Item -=ANNOUNCEMENT ITEM 
+2.4. Blue Sheet -=BLUE SHEET
+2.5. My Sheet Button -=MY BLUE SHEET
+<!-//////////////////////////////////////////////////////////////// ////////////////// ////////////////////////////////////////////////->
+
+
+
+
+	<!-=MAIN CONTAINER START-->
+	<div class="container">
+		<!--=MAIN CONTENT START-->
 		<div class="row profile">
+			<!--=PROFILE-SIDEBAR START (col-md-3) -->
 			<div class="col-md-3">
 
-				<div class="profile-sidebar">
-					<!-- SIDEBAR USERPIC -->
+				<div class="profile-sidebar"> <!--=PROFILE-SIDEBAR MAIN DIV START (.profile-sidebar)-->
+					<!--=SIDEBAR PIC START (.profile-userpic) -->
 					<div class="profile-userpic">
 						<center><img src="img/profile.jpg" class="img-responsive" alt=""></center>
 					</div>
 
-					<!-- END SIDEBAR USERPIC -->
+					<!--=SIDEBAR PIC END (.profile-userpic) -->
 
-					<!-- SIDEBAR USER TITLE -->
+					<!--=SIDEBAR USER TITLE (.profile-usertitle) -->
 					<div class="profile-usertitle">
 						<div class="profile-usertitle-name">
-							Md. Hafizur Rahman Arfin
+							Md. Hafizur Rahman Arfin <!-- PROFILE NAME TEXT -->
 						</div>
 						<div class="profile-usertitle-job">
-							Green
+							Green <!-- RANK TEXT -->
 						</div>
 					</div>
-					<!-- END SIDEBAR USER TITLE -->
+					<!--=SIDEBAR USER TITLE END (.profile-usertitle)-->
 
-					<!-- SIDEBAR BUTTONS -->
+					<!--=SIDEBAR BUTTONS START (.profile-userbuttons)-->
 					<div class="profile-userbuttons">
 						<button type="button" class="btn btn-success btn-sm">Follow</button>
 						<button type="button" class="btn btn-danger btn-sm">Message</button>
 					</div>
-					<!-- END SIDEBAR BUTTONS -->
+					<!--=SIDEBAR BUTTONS END (.profile-userbuttons)-->
 
-					<!-- SIDEBAR MENU -->
-    				<div class="profile-usermenu clearfix">
-    					<ul>
-    						<li>
-								<i class="fas fa-bookmark"></i>
-    							Position: 1
-    						</li>
-    						<li>
-    							<i class="fas fa-book"></i>
-    							Solved: 372
-    						</li>
-    						<li>
-    							<i class="fab fa-bitbucket"></i>
-    							Problems: 504
-    						</li>
-    						<li>
-								<i class="fas fa-calendar-check"></i>
-    							My Status: Yellow
-    						</li>
-    						<li>
-    							<i class="fas fa-cut"></i>
-    							Cutoff: 282
-    						</li>
-    						<li>
-    							<i class="fas fa-stopwatch"></i>
-    							Deadline: 18 Jan, 2018
-    						</li>
-    						<li>
-    							<i class="fas fa-chart-bar"></i>
-    							Streak: 9 Days
-    						</li>
-    					</ul>
-    				</div>
-    				<!-- END MENU -->
+					<!--=SIDEBAR MENU START (.profile-usermenu)-->
+					<div class="profile-usermenu clearfix">
+						<ul>
+							<li> <!--=SIDEBAR MENUE INFO ITEM-->
+								<i class="fas fa-bookmark"></i><!--=SIDEBAR MENUE ICON-->
+								Position: 1 <!--=SIDEBAR MENUE TEXT-->
+							</li>
+							<li> <!--=SIDEBAR MENUE INFO ITEM-->
+								<i class="fas fa-book"></i> <!--=SIDEBAR MENUE ICON-->
+								Solved: 372 <!--=SIDEBAR MENUE TEXT-->
+							</li>
+							<li> <!--=SIDEBAR MENUE INFO ITEM-->
+								<i class="fab fa-bitbucket"></i> <!--=SIDEBAR MENUE ICON-->
+								Problems: 504 <!--=SIDEBAR MENUE TEXT-->
+							</li>
+							<li> <!--=SIDEBAR MENUE INFO ITEM-->
+								<i class="fas fa-calendar-check"></i> <!--=SIDEBAR MENUE ICON-->
+								My Status: Yellow <!--=SIDEBAR MENUE TEXT-->
+							</li>
+							<li> <!--=SIDEBAR MENUE INFO ITEM-->
+								<i class="fas fa-cut"></i> <!--=SIDEBAR MENUE ICON-->
+								Cutoff: 282 <!--=SIDEBAR MENUE TEXT-->
+							</li>
+							<li> <!--=SIDEBAR MENUE INFO ITEM-->
+								<i class="fas fa-stopwatch"></i> <!--=SIDEBAR MENUE ICON-->
+								Deadline: 18 Jan, 2018 <!--=SIDEBAR MENUE TEXT-->
+							</li>
+							<li> <!--=SIDEBAR MENUE INFO ITEM-->
+								<i class="fas fa-chart-bar"></i> <!--=SIDEBAR MENUE ICON-->
+								Streak: 9 Days <!--=SIDEBAR MENUE TEXT-->
+							</li>
+						</ul>
+					</div>
+					<!--=SIDEBAR MENU END (.profile-usermenu)-->
 
+				</div><!--=PROFILE-SIDEBAR MAIN DIV END (.profile-sidebar)-->
+			</div>
+			<!--=PROFILE-SIDEBAR END (.col-md-3) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			<!--=INFO CONTENTS START -->
+			<div class="col-md-9"> 
+				<div class="profile-content"> <!--=INFO CONTENTS START (What to solve next? + Up comming contest?) -->
+					<div class="row"> 
+						<!--=WHAT TO SOLVE NEXT? START (.col-md-6)-->
+						<div class="col-md-6">
+							<ul class="list-group">
+								<!--=This button is the blue heading -->
+								<button type="button" class="list-group-item list-group-item-action active">
+									What to solve next?
+								</button>
+								<!--=WHAT TO SOLVE NEXT? ITEM -->
+								<a href="#" class="list-group-item-action">
+									<li class="list-group-item d-flex justify-content-between align-items-center">
+										Timus 1000 <!--=WHAT TO SOLVE NEXT? PROBLEM NAME -->
+										<span class="badge badge-primary badge-pill">14</span> <!--=WHAT TO SOLVE NEXT? SOLVE COUNT -->
+									</li>
+								</a>
+								<!--=WHAT TO SOLVE NEXT? ITEM -->
+								<a href="#" class="list-group-item-action">
+									<li class="list-group-item d-flex justify-content-between align-items-center">
+										LightOj 989 <!--=WHAT TO SOLVE NEXT? PROBLEM NAME -->
+										<span class="badge badge-primary badge-pill">11</span> <!--=WHAT TO SOLVE NEXT? SOLVE COUNT -->
+									</li>
+								</a>
+								<a href="#" class="list-group-item-action">
+									<li class="list-group-item d-flex justify-content-between align-items-center">
+										Timus 2311 <!--=WHAT TO SOLVE NEXT? PROBLEM NAME -->
+										<span class="badge badge-primary badge-pill">9</span> <!--=WHAT TO SOLVE NEXT? SOLVE COUNT -->
+									</li>
+								</a>
+								<a href="#" class="list-group-item-action">
+									<li class="list-group-item d-flex justify-content-between align-items-center">
+										Uva 658 <!--=WHAT TO SOLVE NEXT? PROBLEM NAME -->
+										<span class="badge badge-primary badge-pill">8</span> <!--=WHAT TO SOLVE NEXT? SOLVE COUNT -->
+									</li>
+								</a>
+								<a href="#" class="list-group-item-action">
+									<li class="list-group-item d-flex justify-content-between align-items-center">
+										Uva 132 <!--=WHAT TO SOLVE NEXT? PROBLEM NAME -->
+										<span class="badge badge-primary badge-pill">6</span> <!--=WHAT TO SOLVE NEXT? SOLVE COUNT -->
+									</li>
+								</a>
+								<a href="#" class="list-group-item-action">
+									<li class="list-group-item d-flex justify-content-between align-items-center">
+										Timus 1001 <!--=WHAT TO SOLVE NEXT? PROBLEM NAME -->
+										<span class="badge badge-primary badge-pill">3</span> <!--=WHAT TO SOLVE NEXT? SOLVE COUNT -->
+									</li>
+								</a>
+							</ul>
+						</div>
+						<!--=WHAT TO SOLVE NEXT? END (.col-md-6)-->
+
+
+						<!--=UPCOMMING CONTEST SECTION START (.col-md-6)-->
+						<div class="col-md-6">
+							<div class="list-group">
+								<!--=UPCOMMING CONTEST ITEM TITLE -->
+								<a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+									<div class="d-flex w-100 justify-content-between">
+										<h5 class="mb-1">Upcomming Contest</h5>
+										<small>2 items</small>
+									</div>
+								</a>
+								<!--=UPCOMMING CONTEST ITEM  -->
+								<a href="https://www.hackerrank.com/contests/projecteuler/challenges" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start">
+									<div class="d-flex w-100 justify-content-between">
+										<h5 class="mb-1">ProjectEuler</h5>
+										<small class="text-muted">July 7th, 21:08:00</small>
+									</div>
+									<small class="text-muted">Unrated Contest: HackerRank brings you the fun of solving Projecteuler challenges with hidden test cases and time limit.</small>
+								</a>
+								<!--=UPCOMMING CONTEST ITEM  -->
+
+								<a href="https://www.hackerrank.com/hourrank-27" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start">
+									<div class="d-flex w-100 justify-content-between">
+										<h5 class="mb-1">HourRank 27</h5>
+										<small class="text-muted">Apr 2nd, 8:00 am PDT</small>
+									</div>
+									<small class="text-muted">Join our 60 minutes coding challenge, HourRank 27, where the fastest coder wins!On April 2nd, at 7:00am PST, 3:00pm UTC, 8:30pm IST, you'll have 60 minutes to solve 3 challenges. The top 10 coders win HackerRank t-shirt.</small>
+								</a>
+							</div>
+
+						</div> 
+						<!--=UPCOMMING CONTEST SECTION END (.col-md-6)-->
+					</div>
+					<!--=INFO CONTENTS END (What to solve next? + Up comming contest?) -->
+					<br>
+
+
+
+
+
+
+
+
+
+
+
+
+					<!--=INFO CONTENTS END (Announcement? + Blue sheet?) -->
+					<div class="row">
+						<div class="col-md-9"><!--=ANNOUNCEMENT start -->
+							<div class="list-group">
+
+								<!--=ANNOUNCEMENT section heading start -->
+								<a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+									<div class="d-flex w-100 justify-content-between">
+										<h5 class="mb-1">Announcement</h5>
+										<small>5 announcements</small>
+									</div>
+									<small>Donec id elit non mi porta.</small>
+								</a>
+								<!--=ANNOUNCEMENT heading end -->
+
+								<!--=ANNOUNCEMENT ITEM  -->
+								<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+									<div class="d-flex w-100 justify-content-between">
+										<h5 class="mb-1">Notice: Cutoff</h5>
+									</div>
+									<p class="mb-1">Those with less than 282 problems solved on January 20 will be removed from this page.</p>
+									<small class="text-muted">5 Days ago</small>
+								</a>
+								<!--=ANNOUNCEMENT ITEM END-->
+
+								<!--=ANNOUNCEMENT ITEM  -->
+								<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+									<div class="d-flex w-100 justify-content-between">
+										<h5 class="mb-1">Notice: Added materials</h5>
+									</div>
+									<p class="mb-1"> Some resources on Data Structures and STL are added in the reference section.</p>
+									<small class="text-muted">9 Days ago</small>
+								</a>
+							</div>
+						</div> <!--=ANNOUNCEMENT start -->
+						
+						<!--=BLUE SHEET START -->
+						<div class="col-md-3">
+							<ul class="list-group">
+								<button type="button" class="list-group-item list-group-item-action active">
+									Blue Sheets
+								</button>
+								<a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+									<li>
+										Spring 2016
+									</li>
+									<span class="badge badge-primary badge-pill">2</span>
+								</a>
+								<a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+									<li>
+										Summer 2016
+									</li>
+									<span class="badge badge-primary badge-pill">4</span>
+								</a>
+								<a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+									<li>
+										Fall 2016
+									</li>
+									<span class="badge badge-primary badge-pill">2</span>
+								</a>
+							</a>
+							<a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+								<li>
+									Spring 2017
+								</li>
+								<span class="badge badge-primary badge-pill">2</span>
+							</a>
+						</a>
+						<a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+							<li>
+								Summer 2017
+							</li>
+							<span class="badge badge-primary badge-pill">2</span>
+						</a>
+					</ul>
+				</div>
+				<!-- BLUE SHEET END -->
+			</div>
+
+			<!--=MY BLUE SHEET-->
+			<div class="row">
+				<div class="col-md-12 text-center mt-4">
+					<a href="index.html">
+						<button class="btn-lg btn-primary">My Blue sheet</button>
+					</a>
 				</div>
 			</div>
-			
-			<div class="col-md-9">
-				<!-- Profile Contents Starts -->
-	            <div class="profile-content">
-	            	<!-- What to solve next?, Up comming contest?  starts-->
-				   <div class="row"> 
-				   		<!-- What to solve next?-->
-				   		<div class="col-md-6">
-				   			<ul class="list-group">
-				   				<button type="button" class="list-group-item list-group-item-action active">
-								    What to solve next?
-								</button>
-								<a href="#" class="list-group-item-action">
-									<li class="list-group-item d-flex justify-content-between align-items-center">
-										Timus 1000
-									  	<span class="badge badge-primary badge-pill">14</span>
-									</li>
-								</a>
-								<a href="#" class="list-group-item-action">
-									<li class="list-group-item d-flex justify-content-between align-items-center">
-										LightOj 989
-									  	<span class="badge badge-primary badge-pill">11</span>
-									</li>
-								</a>
-								<a href="#" class="list-group-item-action">
-									<li class="list-group-item d-flex justify-content-between align-items-center">
-										Timus 2311
-									  	<span class="badge badge-primary badge-pill">9</span>
-									</li>
-								</a>
-								<a href="#" class="list-group-item-action">
-									<li class="list-group-item d-flex justify-content-between align-items-center">
-										Uva 658
-									  	<span class="badge badge-primary badge-pill">8</span>
-									</li>
-								</a>
-								<a href="#" class="list-group-item-action">
-									<li class="list-group-item d-flex justify-content-between align-items-center">
-										Uva 132
-									  	<span class="badge badge-primary badge-pill">6</span>
-									</li>
-								</a>
-								<a href="#" class="list-group-item-action">
-									<li class="list-group-item d-flex justify-content-between align-items-center">
-										Timus 1001
-									  	<span class="badge badge-primary badge-pill">3</span>
-									</li>
-								</a>
-							</ul>
-				   		</div>
-						<!-- What to solve next?-->
-				   		<!-- Upcomming Contest-->
-				   		<div class="col-md-6">
-				   			<div class="list-group">
-							  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
-							    <div class="d-flex w-100 justify-content-between">
-							      <h5 class="mb-1">Upcomming Contest</h5>
-							      <small>2 items</small>
-							    </div>
-							  </a>
+			<!--=INFO CONTENTS END (Announcement? + Blue sheet?) -->
+		</div> <!-- profile-content ends -->
+		<!--=INFO CONTENTS END -->
 
-							  <a href="https://www.hackerrank.com/contests/projecteuler/challenges" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start">
-							    <div class="d-flex w-100 justify-content-between">
-							      <h5 class="mb-1">ProjectEuler</h5>
-							      <small class="text-muted">July 7th, 21:08:00</small>
-							    </div>
-							    <small class="text-muted">Unrated Contest: HackerRank brings you the fun of solving Projecteuler challenges with hidden test cases and time limit.</small>
-							  </a>
-
-							  <a href="https://www.hackerrank.com/hourrank-27" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start">
-							    <div class="d-flex w-100 justify-content-between">
-							      <h5 class="mb-1">HourRank 27</h5>
-							      <small class="text-muted">Apr 2nd, 8:00 am PDT</small>
-							    </div>
-							    <small class="text-muted">Join our 60 minutes coding challenge, HourRank 27, where the fastest coder wins!On April 2nd, at 7:00am PST, 3:00pm UTC, 8:30pm IST, you'll have 60 minutes to solve 3 challenges. The top 10 coders win HackerRank t-shirt.</small>
-							  </a>
-							</div>
-				   		</div> 
-				   		<!-- Upcomming Contest-->
-				   </div>
-				   <!-- What to solve next?, Up comming contest?  Ends-->
-				   <!-- Announcement & Blue sheet -->
-				   <br>
-
-				   <div class="row">
-				   		<div class="col-md-9"><!-- Announcement start -->
-				   			<div class="list-group">
-
-							  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
-							    <div class="d-flex w-100 justify-content-between">
-							      <h5 class="mb-1">Announcement</h5>
-							      <small>5 announcements</small>
-							    </div>
-							    <small>Donec id elit non mi porta.</small>
-							  </a>
-
-							  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-							    <div class="d-flex w-100 justify-content-between">
-							      <h5 class="mb-1">Notice: Cutoff</h5>
-							    </div>
-							    <p class="mb-1">Those with less than 282 problems solved on January 20 will be removed from this page.</p>
-							    <small class="text-muted">5 Days ago</small>
-							  </a>
-							  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-							    <div class="d-flex w-100 justify-content-between">
-							      <h5 class="mb-1">Notice: Added materials</h5>
-							    </div>
-							    <p class="mb-1"> Some resources on Data Structures and STL are added in the reference section.</p>
-							    <small class="text-muted">9 Days ago</small>
-							  </a>
-							</div>
-				   		</div <!-- Announcement end -->
-				   		<div class="col-md-3"><!-- Blue sheet start -->
-				   			<ul class="list-group">
-							  <button type="button" class="list-group-item list-group-item-action active">
-								Blue Sheets
-							  </button>
-							    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-								  <li>
-								    Spring 2016
-								  </li>
-							   <span class="badge badge-primary badge-pill">2</span>
-							  </a>
-							    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-								  <li>
-								    Summer 2016
-								  </li>
-							   <span class="badge badge-primary badge-pill">4</span>
-							  </a>
-							    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-								  <li>
-								    Fall 2016
-								  </li>
-							   <span class="badge badge-primary badge-pill">2</span>
-							  </a>
-							  </a>
-							    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-								  <li>
-								    Spring 2017
-								  </li>
-							   <span class="badge badge-primary badge-pill">2</span>
-							  </a>
-							  </a>
-							    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-								  <li>
-								    Summer 2017
-								  </li>
-							   <span class="badge badge-primary badge-pill">2</span>
-							  </a>
-							  
-							</ul>
-				   		</div> <!-- Blue sheet end -->
-				   </div>
-
-
-	            </div> <!-- profile-content ends -->
-
-			</div>
-		</div>
-
-  	</div><!--Main container end-->
-
-<div class="container">
-    
+	</div>
 </div>
 
+</div><!--Main container end-->
 
+<div class="container">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- Font awesome -->
-	<script src="js/script"></script>
-  </body>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- Font awesome -->
+<script src="js/script"></script>
+</body>
+<!---Body End-->
 </html>
